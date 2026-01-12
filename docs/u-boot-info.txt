@@ -1,0 +1,1141 @@
+DDR Version V1.05 20210208
+In
+PHY drv:clk:33,ca:33,DQ:33,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+ddrconfig:0x3
+cs0 rd gate training fail
+PHY drv:clk:33,ca:33,DQ:33,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+ddrconfig:0x3
+cs0 rd gate training fail
+L3624:first init fail
+PHY drv:clk:37,ca:37,DQ:37,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+ddrconfig:0x2
+cs0 rd gate training fail
+PHY drv:clk:37,ca:37,DQ:37,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+ddrconfig:0x2
+PHY drv:clk:37,ca:37,DQ:37,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+ddrconfig:0x10
+DDR4, 324MHz
+BW=32 Col=10 Bk=4 BG=2 CS0 Row=15 CS1 Row=15 CS=2 Die BW=16 Size=2048MB
+wrlvl:clk skew:0x80,0x80
+tdqss_skew:
+cs 0 dqs 0: 0x2
+cs 0 dqs 1: 0x2
+cs 0 dqs 2: 0xffffffff
+cs 0 dqs 3: 0xfffffffd
+cs 0 dqs 4: 0x0
+cs 1 dqs 0: 0x2
+cs 1 dqs 1: 0x3
+cs 1 dqs 2: 0xffffffff
+cs 1 dqs 3: 0xfffffffd
+cs 1 dqs 4: 0x0
+cs 0 dqs 0: 48ps
+cs 0 dqs 1: 48ps
+cs 0 dqs 2: -24ps
+cs 0 dqs 3: -72ps
+cs 1 dqs 0: 48ps
+cs 1 dqs 1: 72ps
+cs 1 dqs 2: -24ps
+cs 1 dqs 3: -72ps
+tdqss.min:-72,mid:0,max:72
+change to: 324MHz
+get_clk_dqs_def_val: tdqs2dq:0
+clk:0x80, clk_delta:0,max_freq:1056
+skew.dqs[0][0]:0x81
+skew.dqs[0][1]:0x81
+skew.dqs[0][2]:0x80
+skew.dqs[0][3]:0x7e
+skew.dqs[1][0]:0x81
+skew.dqs[1][1]:0x82
+skew.dqs[1][2]:0x80
+skew.dqs[1][3]:0x7e
+PHY drv:clk:37,ca:37,DQ:37,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+CA Training result:
+clk_a:0x80, clk_b:0x80
+reg0x26c:0x0, 0x0
+cs0 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+write leveling result:
+cs0, DQS0:tdqs:128
+cs0, DQS1:tdqs:128
+cs0, DQS2:tdqs:128
+cs0, DQS3:tdqs:128
+cs1, DQS0:tdqs:128
+cs1, DQS1:tdqs:128
+cs1, DQS2:tdqs:128
+cs1, DQS3:tdqs:128
+RX DQS Train result:
+cs0, DQS0:cyc:2,oph:2,dll:12
+cs0, DQS1:cyc:2,oph:2,dll:12
+cs0, DQS2:cyc:2,oph:2,dll:8
+cs0, DQS3:cyc:2,oph:2,dll:9
+cs1, DQS0:cyc:2,oph:2,dll:11
+cs1, DQS1:cyc:2,oph:2,dll:11
+cs1, DQS2:cyc:2,oph:2,dll:9
+cs1, DQS3:cyc:2,oph:2,dll:9
+cs2, DQS0:cyc:0,oph:0,dll:0
+cs2, DQS1:cyc:0,oph:0,dll:0
+cs2, DQS2:cyc:0,oph:0,dll:0
+cs2, DQS3:cyc:0,oph:0,dll:0
+cs3, DQS0:cyc:0,oph:0,dll:0
+cs3, DQS1:cyc:0,oph:0,dll:0
+cs3, DQS2:cyc:0,oph:0,dll:0
+cs3, DQS3:cyc:0,oph:0,dll:0
+the read training result:
+DQS0:0x72:
+DQ0:min:0x0,mid:0x3e,max:0x7d,range:0x7d
+DQ1:min:0x0,mid:0x3e,max:0x7d,range:0x7d
+DQ2:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ3:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ4:min:0x0,mid:0x39,max:0x73,range:0x73
+DQ5:min:0x0,mid:0x3a,max:0x75,range:0x75
+DQ6:min:0x0,mid:0x3b,max:0x76,range:0x76
+DQ7:min:0x0,mid:0x3b,max:0x76,range:0x76
+DM0:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS0:min:0x7f,mid:0x3f,max:0x0
+
+DQS1:0x74:
+DQ8:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DQ9:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ10:min:0x0,mid:0x3a,max:0x74,range:0x74
+DQ11:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ12:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DQ13:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ14:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ15:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DM1:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS1:min:0x7f,mid:0x3f,max:0x0
+
+DQS2:0x6f:
+DQ16:min:0x0,mid:0x3e,max:0x7d,range:0x7d
+DQ17:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ18:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ19:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ20:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ21:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ22:min:0x0,mid:0x3c,max:0x78,range:0x78
+DQ23:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DM2:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS2:min:0x7f,mid:0x3f,max:0x0
+
+DQS3:0x70:
+DQ24:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ25:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ26:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ27:min:0x0,mid:0x3a,max:0x74,range:0x74
+DQ28:min:0x0,mid:0x3c,max:0x78,range:0x78
+DQ29:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DQ30:min:0x0,mid:0x3a,max:0x75,range:0x75
+DQ31:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DM3:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS3:min:0x7f,mid:0x3f,max:0x0
+
+the write training result:
+DQS0:0x81:
+DQ0:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ1:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ2:min:0x6a,mid:0x83,max:0x9d,range:0x33
+DQ3:min:0x69,mid:0x82,max:0x9b,range:0x32
+DQ4:min:0x67,mid:0x80,max:0x99,range:0x32
+DQ5:min:0x67,mid:0x80,max:0x99,range:0x32
+DQ6:min:0x67,mid:0x80,max:0x99,range:0x32
+DQ7:min:0x67,mid:0x80,max:0x99,range:0x32
+DM0:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQS0:min:0xff,mid:0x7f,max:0x0
+
+
+DQS1:0x81:
+DQ8:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ9:min:0x6a,mid:0x83,max:0x9d,range:0x33
+DQ10:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQ11:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ12:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ13:min:0x6a,mid:0x83,max:0x9d,range:0x33
+DQ14:min:0x6a,mid:0x83,max:0x9d,range:0x33
+DQ15:min:0x6a,mid:0x83,max:0x9c,range:0x32
+DM1:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQS1:min:0xff,mid:0x7f,max:0x0
+
+
+DQS2:0x80:
+DQ16:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ17:min:0x69,mid:0x82,max:0x9c,range:0x33
+DQ18:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQ19:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQ20:min:0x68,mid:0x81,max:0x9b,range:0x33
+DQ21:min:0x68,mid:0x81,max:0x9a,range:0x32
+DQ22:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQ23:min:0x68,mid:0x80,max:0x99,range:0x31
+DM2:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQS2:min:0xff,mid:0x7f,max:0x0
+
+
+DQS3:0x7e:
+DQ24:min:0x66,mid:0x80,max:0x9a,range:0x34
+DQ25:min:0x66,mid:0x80,max:0x9a,range:0x34
+DQ26:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQ27:min:0x67,mid:0x7f,max:0x98,range:0x31
+DQ28:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQ29:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQ30:min:0x65,mid:0x7e,max:0x97,range:0x32
+DQ31:min:0x67,mid:0x80,max:0x9a,range:0x33
+DM3:min:0x67,mid:0x80,max:0x9a,range:0x33
+DQS3:min:0xff,mid:0x7f,max:0x0
+
+
+change to: 528MHz
+get_clk_dqs_def_val: tdqs2dq:0
+clk:0x80, clk_delta:0,max_freq:1056
+skew.dqs[0][0]:0x83
+skew.dqs[0][1]:0x83
+skew.dqs[0][2]:0x7f
+skew.dqs[0][3]:0x7c
+skew.dqs[1][0]:0x83
+skew.dqs[1][1]:0x84
+skew.dqs[1][2]:0x7f
+skew.dqs[1][3]:0x7c
+PHY drv:clk:37,ca:37,DQ:37,odt:0
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x0,0x0
+vrefinner:0x100, vrefout:0x100
+dram drv:34,odt:0
+CA Training result:
+clk_a:0x80, clk_b:0x80
+reg0x26c:0x0, 0x0
+cs0 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+write leveling result:
+cs0, DQS0:tdqs:128
+cs0, DQS1:tdqs:128
+cs0, DQS2:tdqs:128
+cs0, DQS3:tdqs:128
+cs1, DQS0:tdqs:128
+cs1, DQS1:tdqs:128
+cs1, DQS2:tdqs:128
+cs1, DQS3:tdqs:128
+RX DQS Train result:
+cs0, DQS0:cyc:2,oph:5,dll:2
+cs0, DQS1:cyc:2,oph:5,dll:3
+cs0, DQS2:cyc:2,oph:5,dll:0
+cs0, DQS3:cyc:2,oph:5,dll:0
+cs1, DQS0:cyc:2,oph:5,dll:0
+cs1, DQS1:cyc:2,oph:5,dll:1
+cs1, DQS2:cyc:2,oph:5,dll:0
+cs1, DQS3:cyc:2,oph:5,dll:0
+cs2, DQS0:cyc:0,oph:0,dll:0
+cs2, DQS1:cyc:0,oph:0,dll:0
+cs2, DQS2:cyc:0,oph:0,dll:0
+cs2, DQS3:cyc:0,oph:0,dll:0
+cs3, DQS0:cyc:0,oph:0,dll:0
+cs3, DQS1:cyc:0,oph:0,dll:0
+cs3, DQS2:cyc:0,oph:0,dll:0
+cs3, DQS3:cyc:0,oph:0,dll:0
+the read training result:
+DQS0:0x71:
+DQ0:min:0x0,mid:0x3e,max:0x7d,range:0x7d
+DQ1:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DQ2:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ3:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ4:min:0x0,mid:0x39,max:0x72,range:0x72
+DQ5:min:0x0,mid:0x39,max:0x73,range:0x73
+DQ6:min:0x0,mid:0x3a,max:0x75,range:0x75
+DQ7:min:0x0,mid:0x3a,max:0x75,range:0x75
+DM0:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS0:min:0x7f,mid:0x3f,max:0x0
+
+DQS1:0x73:
+DQ8:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ9:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ10:min:0x0,mid:0x39,max:0x73,range:0x73
+DQ11:min:0x0,mid:0x3c,max:0x79,range:0x79
+DQ12:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ13:min:0x0,mid:0x3f,max:0x7e,range:0x7e
+DQ14:min:0x0,mid:0x3e,max:0x7c,range:0x7c
+DQ15:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DM1:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS1:min:0x7f,mid:0x3f,max:0x0
+
+DQS2:0x6d:
+DQ16:min:0x1,mid:0x3f,max:0x7d,range:0x7c
+DQ17:min:0x2,mid:0x40,max:0x7e,range:0x7c
+DQ18:min:0x1,mid:0x3d,max:0x7a,range:0x79
+DQ19:min:0x1,mid:0x3d,max:0x7a,range:0x79
+DQ20:min:0x0,mid:0x3c,max:0x78,range:0x78
+DQ21:min:0x0,mid:0x3c,max:0x78,range:0x78
+DQ22:min:0x0,mid:0x3b,max:0x77,range:0x77
+DQ23:min:0x1,mid:0x3d,max:0x79,range:0x78
+DM2:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS2:min:0x7f,mid:0x3f,max:0x0
+
+DQS3:0x6f:
+DQ24:min:0x2,mid:0x40,max:0x7e,range:0x7c
+DQ25:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DQ26:min:0x0,mid:0x3d,max:0x7a,range:0x7a
+DQ27:min:0x0,mid:0x3a,max:0x74,range:0x74
+DQ28:min:0x0,mid:0x3c,max:0x78,range:0x78
+DQ29:min:0x1,mid:0x3e,max:0x7b,range:0x7a
+DQ30:min:0x0,mid:0x3b,max:0x76,range:0x76
+DQ31:min:0x0,mid:0x3d,max:0x7b,range:0x7b
+DM3:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS3:min:0x7f,mid:0x3f,max:0x0
+
+the write training result:
+DQS0:0x83:
+DQ0:min:0x6f,mid:0x85,max:0x9c,range:0x2d
+DQ1:min:0x6f,mid:0x85,max:0x9b,range:0x2c
+DQ2:min:0x70,mid:0x86,max:0x9d,range:0x2d
+DQ3:min:0x6f,mid:0x85,max:0x9b,range:0x2c
+DQ4:min:0x6c,mid:0x82,max:0x98,range:0x2c
+DQ5:min:0x6d,mid:0x82,max:0x97,range:0x2a
+DQ6:min:0x6c,mid:0x81,max:0x97,range:0x2b
+DQ7:min:0x6c,mid:0x81,max:0x97,range:0x2b
+DM0:min:0x6f,mid:0x84,max:0x9a,range:0x2b
+DQS0:min:0xff,mid:0x7f,max:0x0
+
+
+DQS1:0x83:
+DQ8:min:0x6e,mid:0x84,max:0x9b,range:0x2d
+DQ9:min:0x70,mid:0x86,max:0x9c,range:0x2c
+DQ10:min:0x6d,mid:0x82,max:0x98,range:0x2b
+DQ11:min:0x6f,mid:0x85,max:0x9c,range:0x2d
+DQ12:min:0x6e,mid:0x84,max:0x9a,range:0x2c
+DQ13:min:0x71,mid:0x86,max:0x9c,range:0x2b
+DQ14:min:0x70,mid:0x86,max:0x9c,range:0x2c
+DQ15:min:0x70,mid:0x85,max:0x9b,range:0x2b
+DM1:min:0x6c,mid:0x83,max:0x9a,range:0x2e
+DQS1:min:0xff,mid:0x7f,max:0x0
+
+
+DQS2:0x7f:
+DQ16:min:0x6f,mid:0x85,max:0x9b,range:0x2c
+DQ17:min:0x6f,mid:0x85,max:0x9b,range:0x2c
+DQ18:min:0x6d,mid:0x83,max:0x9a,range:0x2d
+DQ19:min:0x6e,mid:0x84,max:0x9b,range:0x2d
+DQ20:min:0x6f,mid:0x84,max:0x99,range:0x2a
+DQ21:min:0x6e,mid:0x83,max:0x99,range:0x2b
+DQ22:min:0x6d,mid:0x82,max:0x98,range:0x2b
+DQ23:min:0x6e,mid:0x83,max:0x98,range:0x2a
+DM2:min:0x6e,mid:0x83,max:0x98,range:0x2a
+DQS2:min:0xff,mid:0x7f,max:0x0
+
+
+DQS3:0x7c:
+DQ24:min:0x69,mid:0x7f,max:0x96,range:0x2d
+DQ25:min:0x69,mid:0x7f,max:0x96,range:0x2d
+DQ26:min:0x69,mid:0x7f,max:0x95,range:0x2c
+DQ27:min:0x6a,mid:0x7e,max:0x93,range:0x29
+DQ28:min:0x6b,mid:0x80,max:0x96,range:0x2b
+DQ29:min:0x6a,mid:0x80,max:0x96,range:0x2c
+DQ30:min:0x69,mid:0x7d,max:0x92,range:0x29
+DQ31:min:0x6a,mid:0x80,max:0x96,range:0x2c
+DM3:min:0x6b,mid:0x80,max:0x96,range:0x2b
+DQS3:min:0xff,mid:0x7f,max:0x0
+
+
+change to: 780MHz
+get_clk_dqs_def_val: tdqs2dq:0
+clk:0x80, clk_delta:0,max_freq:1056
+skew.dqs[0][0]:0x84
+skew.dqs[0][1]:0x84
+skew.dqs[0][2]:0x7e
+skew.dqs[0][3]:0x79
+skew.dqs[1][0]:0x84
+skew.dqs[1][1]:0x87
+skew.dqs[1][2]:0x7e
+skew.dqs[1][3]:0x79
+PHY drv:clk:37,ca:37,DQ:37,odt:139
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x4,0x4
+vrefinner:0x100, vrefout:0x13c
+dram drv:34,odt:120
+CA Training result:
+clk_a:0x80, clk_b:0x80
+reg0x26c:0x0, 0x0
+cs0 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+write leveling result:
+cs0, DQS0:tdqs:128
+cs0, DQS1:tdqs:128
+cs0, DQS2:tdqs:128
+cs0, DQS3:tdqs:128
+cs1, DQS0:tdqs:128
+cs1, DQS1:tdqs:128
+cs1, DQS2:tdqs:128
+cs1, DQS3:tdqs:128
+RX DQS Train result:
+cs0, DQS0:cyc:2,oph:3,dll:9
+cs0, DQS1:cyc:2,oph:3,dll:9
+cs0, DQS2:cyc:2,oph:3,dll:6
+cs0, DQS3:cyc:2,oph:3,dll:9
+cs1, DQS0:cyc:2,oph:3,dll:8
+cs1, DQS1:cyc:2,oph:3,dll:9
+cs1, DQS2:cyc:2,oph:3,dll:9
+cs1, DQS3:cyc:2,oph:3,dll:11
+cs2, DQS0:cyc:0,oph:0,dll:0
+cs2, DQS1:cyc:0,oph:0,dll:0
+cs2, DQS2:cyc:0,oph:0,dll:0
+cs2, DQS3:cyc:0,oph:0,dll:0
+cs3, DQS0:cyc:0,oph:0,dll:0
+cs3, DQS1:cyc:0,oph:0,dll:0
+cs3, DQS2:cyc:0,oph:0,dll:0
+cs3, DQS3:cyc:0,oph:0,dll:0
+the read training result:
+DQS0:0x56:
+DQ0:min:0xc,mid:0x36,max:0x61,range:0x55
+DQ1:min:0xa,mid:0x35,max:0x61,range:0x57
+DQ2:min:0xd,mid:0x37,max:0x62,range:0x55
+DQ3:min:0x9,mid:0x34,max:0x5f,range:0x56
+DQ4:min:0x1,mid:0x2b,max:0x56,range:0x55
+DQ5:min:0x7,mid:0x30,max:0x5a,range:0x53
+DQ6:min:0x6,mid:0x30,max:0x5b,range:0x55
+DQ7:min:0x6,mid:0x30,max:0x5a,range:0x54
+DM0:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS0:min:0x7f,mid:0x3f,max:0x0
+
+DQS1:0x57:
+DQ8:min:0xa,mid:0x34,max:0x5e,range:0x54
+DQ9:min:0xa,mid:0x33,max:0x5d,range:0x53
+DQ10:min:0x2,mid:0x2c,max:0x57,range:0x55
+DQ11:min:0x8,mid:0x31,max:0x5b,range:0x53
+DQ12:min:0xc,mid:0x35,max:0x5e,range:0x52
+DQ13:min:0xd,mid:0x36,max:0x60,range:0x53
+DQ14:min:0xc,mid:0x35,max:0x5f,range:0x53
+DQ15:min:0x9,mid:0x34,max:0x5f,range:0x56
+DM1:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS1:min:0x7f,mid:0x3f,max:0x0
+
+DQS2:0x4d:
+DQ16:min:0x5,mid:0x2e,max:0x57,range:0x52
+DQ17:min:0x6,mid:0x2e,max:0x57,range:0x51
+DQ18:min:0x4,mid:0x2c,max:0x55,range:0x51
+DQ19:min:0x6,mid:0x2d,max:0x54,range:0x4e
+DQ20:min:0x2,mid:0x2a,max:0x53,range:0x51
+DQ21:min:0x4,mid:0x2b,max:0x53,range:0x4f
+DQ22:min:0x3,mid:0x2a,max:0x52,range:0x4f
+DQ23:min:0x5,mid:0x2c,max:0x54,range:0x4f
+DM2:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS2:min:0x7f,mid:0x3f,max:0x0
+
+DQS3:0x56:
+DQ24:min:0xc,mid:0x36,max:0x60,range:0x54
+DQ25:min:0x8,mid:0x33,max:0x5f,range:0x57
+DQ26:min:0x6,mid:0x31,max:0x5d,range:0x57
+DQ27:min:0x3,mid:0x2d,max:0x57,range:0x54
+DQ28:min:0x7,mid:0x31,max:0x5c,range:0x55
+DQ29:min:0xc,mid:0x35,max:0x5e,range:0x52
+DQ30:min:0x2,mid:0x2d,max:0x58,range:0x56
+DQ31:min:0x8,mid:0x33,max:0x5f,range:0x57
+DM3:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS3:min:0x7f,mid:0x3f,max:0x0
+
+the write training result:
+DQS0:0x84:
+DQ0:min:0x72,mid:0x86,max:0x9b,range:0x29
+DQ1:min:0x71,mid:0x85,max:0x9a,range:0x29
+DQ2:min:0x74,mid:0x8b,max:0xa2,range:0x2e
+DQ3:min:0x72,mid:0x85,max:0x99,range:0x27
+DQ4:min:0x6d,mid:0x81,max:0x95,range:0x28
+DQ5:min:0x6d,mid:0x81,max:0x96,range:0x29
+DQ6:min:0x6d,mid:0x81,max:0x95,range:0x28
+DQ7:min:0x6d,mid:0x81,max:0x96,range:0x29
+DM0:min:0x6f,mid:0x84,max:0x99,range:0x2a
+DQS0:min:0xff,mid:0x7f,max:0x0
+
+
+DQS1:0x84:
+DQ8:min:0x72,mid:0x89,max:0xa0,range:0x2e
+DQ9:min:0x73,mid:0x8a,max:0xa2,range:0x2f
+DQ10:min:0x6f,mid:0x83,max:0x97,range:0x28
+DQ11:min:0x72,mid:0x86,max:0x9b,range:0x29
+DQ12:min:0x71,mid:0x86,max:0x9b,range:0x2a
+DQ13:min:0x75,mid:0x8c,max:0xa3,range:0x2e
+DQ14:min:0x75,mid:0x8b,max:0xa2,range:0x2d
+DQ15:min:0x74,mid:0x8a,max:0xa0,range:0x2c
+DM1:min:0x6e,mid:0x83,max:0x99,range:0x2b
+DQS1:min:0xff,mid:0x7f,max:0x0
+
+
+DQS2:0x7e:
+DQ16:min:0x72,mid:0x86,max:0x9b,range:0x29
+DQ17:min:0x72,mid:0x86,max:0x9a,range:0x28
+DQ18:min:0x71,mid:0x85,max:0x99,range:0x28
+DQ19:min:0x70,mid:0x85,max:0x9a,range:0x2a
+DQ20:min:0x70,mid:0x84,max:0x98,range:0x28
+DQ21:min:0x6f,mid:0x83,max:0x98,range:0x29
+DQ22:min:0x6f,mid:0x83,max:0x97,range:0x28
+DQ23:min:0x71,mid:0x83,max:0x96,range:0x25
+DM2:min:0x6e,mid:0x82,max:0x97,range:0x29
+DQS2:min:0xff,mid:0x7f,max:0x0
+
+
+DQS3:0x79:
+DQ24:min:0x69,mid:0x7d,max:0x92,range:0x29
+DQ25:min:0x67,mid:0x7c,max:0x92,range:0x2b
+DQ26:min:0x68,mid:0x7d,max:0x92,range:0x2a
+DQ27:min:0x69,mid:0x7c,max:0x8f,range:0x26
+DQ28:min:0x69,mid:0x7e,max:0x94,range:0x2b
+DQ29:min:0x69,mid:0x7e,max:0x94,range:0x2b
+DQ30:min:0x65,mid:0x79,max:0x8d,range:0x28
+DQ31:min:0x6a,mid:0x7f,max:0x94,range:0x2a
+DM3:min:0x69,mid:0x7e,max:0x93,range:0x2a
+DQS3:min:0xff,mid:0x7f,max:0x0
+
+
+change to: 1056MHz(final freq)
+get_clk_dqs_def_val: tdqs2dq:0
+clk:0x80, clk_delta:0,max_freq:1056
+skew.dqs[0][0]:0x86
+skew.dqs[0][1]:0x86
+skew.dqs[0][2]:0x7d
+skew.dqs[0][3]:0x77
+skew.dqs[1][0]:0x86
+skew.dqs[1][1]:0x89
+skew.dqs[1][2]:0x7d
+skew.dqs[1][3]:0x77
+PHY drv:clk:37,ca:37,DQ:37,odt:139
+PHY drv:clk:0xf,0xf,ca:0xf,0xf,DQ:0xf,0xf,odt:0x4,0x4
+vrefinner:0x100, vrefout:0x13c
+dram drv:34,odt:120
+CA Training result:
+clk_a:0x80, clk_b:0x80
+reg0x26c:0x0, 0x0
+cs0 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs0 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chA  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca0 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca1 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca2 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca3 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca4 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB ca5 min: 0x0, mid:0x0 max:0x0, range:0x0
+cs1 chB  CS min: 0x0, mid:0x0 max:0x0, range:0x0
+write leveling result:
+cs0, DQS0:tdqs:130
+cs0, DQS1:tdqs:130
+cs0, DQS2:tdqs:127
+cs0, DQS3:tdqs:125
+cs1, DQS0:tdqs:130
+cs1, DQS1:tdqs:131
+cs1, DQS2:tdqs:127
+cs1, DQS3:tdqs:125
+RX DQS Train result:
+cs0, DQS0:cyc:2,oph:3,dll:23
+cs0, DQS1:cyc:2,oph:3,dll:23
+cs0, DQS2:cyc:2,oph:3,dll:21
+cs0, DQS3:cyc:2,oph:3,dll:26
+cs1, DQS0:cyc:2,oph:3,dll:23
+cs1, DQS1:cyc:2,oph:3,dll:26
+cs1, DQS2:cyc:2,oph:3,dll:25
+cs1, DQS3:cyc:2,oph:3,dll:28
+cs2, DQS0:cyc:0,oph:0,dll:0
+cs2, DQS1:cyc:0,oph:0,dll:0
+cs2, DQS2:cyc:0,oph:0,dll:0
+cs2, DQS3:cyc:0,oph:0,dll:0
+cs3, DQS0:cyc:0,oph:0,dll:0
+cs3, DQS1:cyc:0,oph:0,dll:0
+cs3, DQS2:cyc:0,oph:0,dll:0
+cs3, DQS3:cyc:0,oph:0,dll:0
+the read training result:
+DQS0:0x41:
+DQ0:min:0xc,mid:0x2b,max:0x4a,range:0x3e
+DQ1:min:0xb,mid:0x2a,max:0x4a,range:0x3f
+DQ2:min:0xd,mid:0x2c,max:0x4b,range:0x3e
+DQ3:min:0x9,mid:0x28,max:0x48,range:0x3f
+DQ4:min:0x1,mid:0x20,max:0x3f,range:0x3e
+DQ5:min:0x6,mid:0x24,max:0x42,range:0x3c
+DQ6:min:0x6,mid:0x25,max:0x44,range:0x3e
+DQ7:min:0x4,mid:0x23,max:0x43,range:0x3f
+DM0:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS0:min:0x7f,mid:0x3f,max:0x0
+
+DQS1:0x43:
+DQ8:min:0xa,mid:0x29,max:0x48,range:0x3e
+DQ9:min:0xb,mid:0x29,max:0x47,range:0x3c
+DQ10:min:0x1,mid:0x20,max:0x40,range:0x3f
+DQ11:min:0x8,mid:0x26,max:0x45,range:0x3d
+DQ12:min:0xd,mid:0x2a,max:0x48,range:0x3b
+DQ13:min:0xe,mid:0x2c,max:0x4a,range:0x3c
+DQ14:min:0xc,mid:0x2a,max:0x49,range:0x3d
+DQ15:min:0x9,mid:0x28,max:0x48,range:0x3f
+DM1:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS1:min:0x7f,mid:0x3f,max:0x0
+
+DQS2:0x35:
+DQ16:min:0x7,mid:0x23,max:0x3f,range:0x38
+DQ17:min:0x9,mid:0x23,max:0x3e,range:0x35
+DQ18:min:0x5,mid:0x20,max:0x3c,range:0x37
+DQ19:min:0x8,mid:0x21,max:0x3b,range:0x33
+DQ20:min:0x4,mid:0x1f,max:0x3b,range:0x37
+DQ21:min:0x5,mid:0x1f,max:0x3a,range:0x35
+DQ22:min:0x2,mid:0x1e,max:0x3a,range:0x38
+DQ23:min:0x7,mid:0x21,max:0x3b,range:0x34
+DM2:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS2:min:0x7f,mid:0x3f,max:0x0
+
+DQS3:0x3d:
+DQ24:min:0xd,mid:0x29,max:0x46,range:0x39
+DQ25:min:0xa,mid:0x27,max:0x45,range:0x3b
+DQ26:min:0x8,mid:0x25,max:0x43,range:0x3b
+DQ27:min:0x4,mid:0x21,max:0x3e,range:0x3a
+DQ28:min:0x7,mid:0x24,max:0x42,range:0x3b
+DQ29:min:0xc,mid:0x28,max:0x44,range:0x38
+DQ30:min:0x1,mid:0x1f,max:0x3d,range:0x3c
+DQ31:min:0x9,mid:0x27,max:0x46,range:0x3d
+DM3:min:0x7f,mid:0x3f,max:0x0,range:0xffffff81
+DQS3:min:0x7f,mid:0x3f,max:0x0
+
+the write training result:
+DQS0:0x86:
+DQ0:min:0x76,mid:0x8a,max:0x9f,range:0x29
+DQ1:min:0x74,mid:0x88,max:0x9d,range:0x29
+DQ2:min:0x78,mid:0x8d,max:0xa2,range:0x2a
+DQ3:min:0x76,mid:0x89,max:0x9d,range:0x27
+DQ4:min:0x6d,mid:0x81,max:0x96,range:0x29
+DQ5:min:0x6e,mid:0x82,max:0x97,range:0x29
+DQ6:min:0x6e,mid:0x82,max:0x97,range:0x29
+DQ7:min:0x70,mid:0x83,max:0x97,range:0x27
+DM0:min:0x72,mid:0x86,max:0x9b,range:0x29
+DQS0:min:0xff,mid:0x7f,max:0x0
+
+
+DQS1:0x86:
+DQ8:min:0x76,mid:0x8a,max:0x9f,range:0x29
+DQ9:min:0x78,mid:0x8c,max:0xa0,range:0x28
+DQ10:min:0x73,mid:0x85,max:0x97,range:0x24
+DQ11:min:0x77,mid:0x89,max:0x9c,range:0x25
+DQ12:min:0x73,mid:0x88,max:0x9d,range:0x2a
+DQ13:min:0x78,mid:0x8d,max:0xa3,range:0x2b
+DQ14:min:0x77,mid:0x8c,max:0xa1,range:0x2a
+DQ15:min:0x77,mid:0x8b,max:0x9f,range:0x28
+DM1:min:0x70,mid:0x84,max:0x99,range:0x29
+DQS1:min:0xff,mid:0x7f,max:0x0
+
+
+DQS2:0x7d:
+DQ16:min:0x72,mid:0x85,max:0x98,range:0x26
+DQ17:min:0x70,mid:0x83,max:0x97,range:0x27
+DQ18:min:0x6e,mid:0x82,max:0x96,range:0x28
+DQ19:min:0x6e,mid:0x82,max:0x96,range:0x28
+DQ20:min:0x6d,mid:0x81,max:0x95,range:0x28
+DQ21:min:0x6a,mid:0x7f,max:0x95,range:0x2b
+DQ22:min:0x6a,mid:0x7f,max:0x94,range:0x2a
+DQ23:min:0x6c,mid:0x7f,max:0x93,range:0x27
+DM2:min:0x6c,mid:0x7f,max:0x93,range:0x27
+DQS2:min:0xff,mid:0x7f,max:0x0
+
+
+DQS3:0x77:
+DQ24:min:0x67,mid:0x7b,max:0x90,range:0x29
+DQ25:min:0x65,mid:0x7a,max:0x8f,range:0x2a
+DQ26:min:0x67,mid:0x7b,max:0x8f,range:0x28
+DQ27:min:0x67,mid:0x79,max:0x8b,range:0x24
+DQ28:min:0x65,mid:0x7a,max:0x90,range:0x2b
+DQ29:min:0x65,mid:0x7b,max:0x92,range:0x2d
+DQ30:min:0x61,mid:0x74,max:0x87,range:0x26
+DQ31:min:0x66,mid:0x7c,max:0x92,range:0x2c
+DM3:min:0x68,mid:0x7c,max:0x91,range:0x29
+DQS3:min:0xff,mid:0x7f,max:0x0
+
+
+out
+U-Boot SPL board init
+U-Boot SPL 2017.09-gabfd1c5e3d-210202 #zzz (Mar 08 2021 - 14:06:22)
+unknown raw ID phN
+unrecognized JEDEC id bytes: 00, 00, 00
+Trying to boot from MMC2
+MMC error: The cmd index is 1, ret is -110
+Card did not respond to voltage select!
+mmc_init: -95, time 10
+spl: mmc init failed with error: -95
+Trying to boot from MMC1
+SPL: A/B-slot: _a, successful: 0, tries-remain: 7
+## Verified-boot: 0
+## Checking atf-1 0x00040000 ... sha256+ OK
+## Checking uboot 0x00a00000 ... sha256+ OK
+## Checking fdt 0x00b22040 ... sha256+ OK
+## Checking atf-2 0xfdcc9000 ... sha256+ OK
+## Checking atf-3 0xfdcd0000 ... sha256+ OK
+## Checking optee 0x08400000 ... sha256+ OK
+Jumping to U-Boot(0x00a00000) via ARM Trusted Firmware(0x00040000)
+Total: 215.67 ms
+
+INFO:    Preloader serial: 2
+NOTICE:  BL31: v2.3():v2.3-151-gea50cdb22-dirty:xsf
+NOTICE:  BL31: Built : 11:03:32, Jul 12 2021
+INFO:    GICv3 without legacy support detected.
+INFO:    ARM GICv3 driver initialized in EL3
+INFO:    pmu v1 is valid
+ERROR:   dfs get fsp_param[0] error, 0xfead0001 != 0xfead0002
+ERROR:   dfs get fsp_param[1] error, 0x0 != 0xfead0002
+ERROR:   dfs get fsp_param[2] error, 0x0 != 0xfead0002
+ERROR:   dfs get fsp_param[3] error, 0xffffffff != 0xfead0002
+ERROR:   loader&trust unmatch!!! Please update loader if need enable dmc
+INFO:    Using opteed sec cpu_context!
+INFO:    boot cpu mask: 0
+INFO:    BL31: Initializing runtime services
+INFO:    BL31: Initializing BL32
+I/TC:
+I/TC: Start rockchip platform init
+I/TC: Rockchip release version: 1.0
+I/TC: OP-TEE version: 3.6.0-307-g0b06ae94 #1 Fri May  7 01:52:27 UTC 2021 aarch64
+I/TC: Initialized
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0xa00000
+INFO:    SPSR = 0x3c9
+
+
+U-Boot 2017.09 (Sep 23 2021 - 22:35:51 +0800)
+
+Model: Rockchip RK3568 Evaluation Board
+PreSerial: 2, raw, 0xfe660000
+DRAM:  2 GiB
+Sysmem: init
+Relocation Offset: 7d356000, fdt: 7b9f8d38
+Using default environment
+
+Hotkey: ctrl+c
+dwmmc@fe2b0000: 1, dwmmc@fe2c0000: 2, sdhci@fe310000: 0
+Bootdev(atags): mmc 0
+MMC0: HS200, 200Mhz
+PartType: EFI
+boot mode: recovery (misc)
+FIT: No fdt blob
+boot mode: normal
+Android 11.0, Build 2021.6, v2
+Found DTB in boot part
+DTB: rk-kernel.dtb
+HASH(c): OK
+ANDROID: fdt overlay OK
+I2c0 speed: 100000Hz
+vsel-gpios- not found! Error: -2
+vdd_cpu init 900000 uV
+PMIC:  RK8090 (on=0x40, off=0x00)
+vdd_logic init 900000 uV
+vdd_gpu init 900000 uV
+vdd_npu init 900000 uV
+io-domain: OK
+Model: Rockchip RK3568 EVB1 DDR4 V10 Board
+Rockchip UBOOT DRM driver version: v1.0.1
+Using display timing dts
+Detailed mode clock 60000 kHz, flags[8000000a]
+    H: 1024 1174 1194 1344
+    V: 0600 0608 0611 0635
+bus_format: 100e
+VOP have 2 active VP
+vp0 have layer nr:3[0 2 4 ], primary plane: 4
+vp1 have layer nr:3[1 3 5 ], primary plane: 5
+vp2 have layer nr:0[], primary plane: 0
+final DSI-Link bandwidth: 396 Mbps x 4
+disp info 0, type:11, id:0
+xfer: num: 2, addr: 0x50
+xfer: num: 2, addr: 0x50
+Monitor has basic audio support
+base_parameter.mode:1920x1080
+mode:1920x1080
+Detailed mode clock 148500 kHz, flags[5]
+    H: 1920 2008 2052 2200
+    V: 1080 1084 1089 1125
+bus_format: 100a
+CEA mode used vic=16
+final pixclk = 148500000 tmdsclk = 148500000
+PHY powered down in 0 iterations
+PHY PLL locked 1 iterations
+PHY powered down in 0 iterations
+PHY PLL locked 1 iterations
+sink has audio support
+hdmi_set_clk_regenerator: fs=48000Hz ftdms=148.500MHz N=6144 cts=148500
+CLK: (sync kernel. arm: enter 816000 KHz, init 816000 KHz, kernel 0N/A)
+  apll 1416000 KHz
+  dpll 528000 KHz
+  gpll 1188000 KHz
+  cpll 1000000 KHz
+  npll 1200000 KHz
+  vpll 24000 KHz
+  hpll 148000 KHz
+  ppll 200000 KHz
+  armclk 1416000 KHz
+  aclk_bus 150000 KHz
+  pclk_bus 100000 KHz
+  aclk_top_high 500000 KHz
+  aclk_top_low 400000 KHz
+  hclk_top 150000 KHz
+  pclk_top 100000 KHz
+  aclk_perimid 300000 KHz
+  hclk_perimid 150000 KHz
+  pclk_pmu 100000 KHz
+Net:   eth1: ethernet@fe010000, eth0: ethernet@fe2a0000
+Hit key to stop autoboot('CTRL+C'):  0
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=> <INTERRUPT>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=> printenv
+arch=arm
+baudrate=1500000
+board=evb_rk3568
+board_name=evb_rk3568
+boot_a_script=load ${devtype} ${devnum}:${distro_bootpart} ${scriptaddr} ${prefix}${script}; source ${scriptaddr}
+boot_extlinux=sysboot ${devtype} ${devnum}:${distro_bootpart} any ${scriptaddr} ${prefix}extlinux/extlinux.conf
+boot_net_usb_start=usb start
+boot_prefixes=/ /boot/
+boot_script_dhcp=boot.scr.uimg
+boot_scripts=boot.scr.uimg boot.scr
+boot_targets=mmc1 mmc0 usb0 pxe dhcp
+bootargs=storagemedia=emmc androidboot.storagemedia=emmc androidboot.mode=normal  androidboot.dtb_idx=0 androidboot.dtbo_idx=0
+bootcmd=boot_fit;boot_android ${devtype} ${devnum};run distro_bootcmd;
+bootcmd_dhcp=run boot_net_usb_start; if dhcp ${scriptaddr} ${boot_script_dhcp}; then source ${scriptaddr}; fi;
+bootcmd_mmc0=setenv devnum 0; run mmc_boot
+bootcmd_mmc1=setenv devnum 1; run mmc_boot
+bootcmd_pxe=run boot_net_usb_start; dhcp; if pxe get; then pxe boot; fi
+bootcmd_usb0=setenv devnum 0; run usb_boot
+bootdelay=0
+cpu=armv8
+devnum=0
+devtype=mmc
+distro_bootcmd=for target in ${boot_targets}; do run bootcmd_${target}; done
+eth1addr=a6:2e:b2:65:f8:93
+ethaddr=a2:2e:b2:65:f8:93
+fdt_addr_r=0x0a100000
+kernel_addr_c=0x04080000
+kernel_addr_no_low_bl32_r=0x00280000
+kernel_addr_r=0x00280000
+mmc_boot=if mmc dev ${devnum}; then setenv devtype mmc; run scan_dev_for_boot_part; fi
+partitions=uuid_disk=${uuid_gpt_disk};name=uboot,start=8MB,size=4MB,uuid=${uuid_gpt_loader2};name=trust,size=4M,uuid=${uuid_gpt_atf};name=misc,size=4MB,uuid=${uuid_gpt_misc};name=resource,size=16MB,uuid=${uuid_gpt_resource};name=kernel,size=32M,uuid=${uuid_gpt_kernel};name=boot,size=32M,bootable,uuid=${uuid_gpt_boot};name=recovery,size=32M,uuid=${uuid_gpt_recovery};name=backup,size=112M,uuid=${uuid_gpt_backup};name=cache,size=512M,uuid=${uuid_gpt_cache};name=system,size=2048M,uuid=${uuid_gpt_system};name=metadata,size=16M,uuid=${uuid_gpt_metadata};name=vendor,size=32M,uuid=${uuid_gpt_vendor};name=oem,size=32M,uuid=${uuid_gpt_oem};name=frp,size=512K,uuid=${uuid_gpt_frp};name=security,size=2M,uuid=${uuid_gpt_security};name=userdata,size=-,uuid=${uuid_gpt_userdata};
+pxefile_addr_r=0x00e00000
+ramdisk_addr_r=0x0a200000
+rkimg_bootdev=if mmc dev 1 && rkimgtest mmc 1; then setenv devtype mmc; setenv devnum 1; echo Boot from SDcard;elif mmc dev 0; then setenv devtype mmc; setenv devnum 0;elif mtd_blk dev 0; then setenv devtype mtd; setenv devnum 0;elif mtd_blk dev 1; then setenv devtype mtd; setenv devnum 1;elif mtd_blk dev 2; then setenv devtype mtd; setenv devnum 2;elif rknand dev 0; then setenv devtype rknand; setenv devnum 0;elif rksfc dev 0; then setenv devtype spinand; setenv devnum 0;elif rksfc dev 1; then setenv devtype spinor; setenv devnum 1;fi;
+scan_dev_for_boot=echo Scanning ${devtype} ${devnum}:${distro_bootpart}...; for prefix in ${boot_prefixes}; do run scan_dev_for_extlinux; run scan_dev_for_scripts; done;
+scan_dev_for_boot_part=part list ${devtype} ${devnum} -bootable devplist; env exists devplist || setenv devplist 1; for distro_bootpart in ${devplist}; do if fstype ${devtype} ${devnum}:${distro_bootpart} bootfstype; then run scan_dev_for_boot; fi; done
+scan_dev_for_extlinux=if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}extlinux/extlinux.conf; then echo Found ${prefix}extlinux/extlinux.conf; run boot_extlinux; echo SCRIPT FAILED: continuing...; fi
+scan_dev_for_scripts=for script in ${boot_scripts}; do if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}${script}; then echo Found U-Boot script ${prefix}${script}; run boot_a_script; echo SCRIPT FAILED: continuing...; fi; done
+scriptaddr=0x00c00000
+serial#=a87bf82fad6c2c3b
+soc=rockchip
+stderr=serial,vidconsole
+stdout=serial,vidconsole
+usb_boot=usb start; if usb dev ${devnum}; then setenv devtype usb; run scan_dev_for_boot_part; fi
+vendor=rockchip
+
+Environment size: 3887/32764 bytes
+=>
+arch=arm
+baudrate=1500000
+board=evb_rk3568
+board_name=evb_rk3568
+boot_a_script=load ${devtype} ${devnum}:${distro_bootpart} ${scriptaddr} ${prefix}${script}; source ${scriptaddr}
+boot_extlinux=sysboot ${devtype} ${devnum}:${distro_bootpart} any ${scriptaddr} ${prefix}extlinux/extlinux.conf
+boot_net_usb_start=usb start
+boot_prefixes=/ /boot/
+boot_script_dhcp=boot.scr.uimg
+boot_scripts=boot.scr.uimg boot.scr
+boot_targets=mmc1 mmc0 usb0 pxe dhcp
+bootargs=storagemedia=emmc androidboot.storagemedia=emmc androidboot.mode=normal  androidboot.dtb_idx=0 androidboot.dtbo_idx=0
+bootcmd=boot_fit;boot_android ${devtype} ${devnum};run distro_bootcmd;
+bootcmd_dhcp=run boot_net_usb_start; if dhcp ${scriptaddr} ${boot_script_dhcp}; then source ${scriptaddr}; fi;
+bootcmd_mmc0=setenv devnum 0; run mmc_boot
+bootcmd_mmc1=setenv devnum 1; run mmc_boot
+bootcmd_pxe=run boot_net_usb_start; dhcp; if pxe get; then pxe boot; fi
+bootcmd_usb0=setenv devnum 0; run usb_boot
+bootdelay=0
+cpu=armv8
+devnum=0
+devtype=mmc
+distro_bootcmd=for target in ${boot_targets}; do run bootcmd_${target}; done
+eth1addr=a6:2e:b2:65:f8:93
+ethaddr=a2:2e:b2:65:f8:93
+fdt_addr_r=0x0a100000
+kernel_addr_c=0x04080000
+kernel_addr_no_low_bl32_r=0x00280000
+kernel_addr_r=0x00280000
+mmc_boot=if mmc dev ${devnum}; then setenv devtype mmc; run scan_dev_for_boot_part; fi
+partitions=uuid_disk=${uuid_gpt_disk};name=uboot,start=8MB,size=4MB,uuid=${uuid_gpt_loader2};name=trust,size=4M,uuid=${uuid_gpt_atf};name=misc,size=4MB,uuid=${uuid_gpt_misc};name=resource,size=16MB,uuid=${uuid_gpt_resource};name=kernel,size=32M,uuid=${uuid_gpt_kernel};name=boot,size=32M,bootable,uuid=${uuid_gpt_boot};name=recovery,size=32M,uuid=${uuid_gpt_recovery};name=backup,size=112M,uuid=${uuid_gpt_backup};name=cache,size=512M,uuid=${uuid_gpt_cache};name=system,size=2048M,uuid=${uuid_gpt_system};name=metadata,size=16M,uuid=${uuid_gpt_metadata};name=vendor,size=32M,uuid=${uuid_gpt_vendor};name=oem,size=32M,uuid=${uuid_gpt_oem};name=frp,size=512K,uuid=${uuid_gpt_frp};name=security,size=2M,uuid=${uuid_gpt_security};name=userdata,size=-,uuid=${uuid_gpt_userdata};
+pxefile_addr_r=0x00e00000
+ramdisk_addr_r=0x0a200000
+rkimg_bootdev=if mmc dev 1 && rkimgtest mmc 1; then setenv devtype mmc; setenv devnum 1; echo Boot from SDcard;elif mmc dev 0; then setenv devtype mmc; setenv devnum 0;elif mtd_blk dev 0; then setenv devtype mtd; setenv devnum 0;elif mtd_blk dev 1; then setenv devtype mtd; setenv devnum 1;elif mtd_blk dev 2; then setenv devtype mtd; setenv devnum 2;elif rknand dev 0; then setenv devtype rknand; setenv devnum 0;elif rksfc dev 0; then setenv devtype spinand; setenv devnum 0;elif rksfc dev 1; then setenv devtype spinor; setenv devnum 1;fi;
+scan_dev_for_boot=echo Scanning ${devtype} ${devnum}:${distro_bootpart}...; for prefix in ${boot_prefixes}; do run scan_dev_for_extlinux; run scan_dev_for_scripts; done;
+scan_dev_for_boot_part=part list ${devtype} ${devnum} -bootable devplist; env exists devplist || setenv devplist 1; for distro_bootpart in ${devplist}; do if fstype ${devtype} ${devnum}:${distro_bootpart} bootfstype; then run scan_dev_for_boot; fi; done
+scan_dev_for_extlinux=if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}extlinux/extlinux.conf; then echo Found ${prefix}extlinux/extlinux.conf; run boot_extlinux; echo SCRIPT FAILED: continuing...; fi
+scan_dev_for_scripts=for script in ${boot_scripts}; do if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}${script}; then echo Found U-Boot script ${prefix}${script}; run boot_a_script; echo SCRIPT FAILED: continuing...; fi; done
+scriptaddr=0x00c00000
+serial#=a87bf82fad6c2c3b
+soc=rockchip
+stderr=serial,vidconsole
+stdout=serial,vidconsole
+usb_boot=usb start; if usb dev ${devnum}; then setenv devtype usb; run scan_dev_for_boot_part; fi
+vendor=rockchip
+
+Environment size: 3887/32764 bytes
+=>
+arch=arm
+baudrate=1500000
+board=evb_rk3568
+board_name=evb_rk3568
+boot_a_script=load ${devtype} ${devnum}:${distro_bootpart} ${scriptaddr} ${prefix}${script}; source ${scriptaddr}
+boot_extlinux=sysboot ${devtype} ${devnum}:${distro_bootpart} any ${scriptaddr} ${prefix}extlinux/extlinux.conf
+boot_net_usb_start=usb start
+boot_prefixes=/ /boot/
+boot_script_dhcp=boot.scr.uimg
+boot_scripts=boot.scr.uimg boot.scr
+boot_targets=mmc1 mmc0 usb0 pxe dhcp
+bootargs=storagemedia=emmc androidboot.storagemedia=emmc androidboot.mode=normal  androidboot.dtb_idx=0 androidboot.dtbo_idx=0
+bootcmd=boot_fit;boot_android ${devtype} ${devnum};run distro_bootcmd;
+bootcmd_dhcp=run boot_net_usb_start; if dhcp ${scriptaddr} ${boot_script_dhcp}; then source ${scriptaddr}; fi;
+bootcmd_mmc0=setenv devnum 0; run mmc_boot
+bootcmd_mmc1=setenv devnum 1; run mmc_boot
+bootcmd_pxe=run boot_net_usb_start; dhcp; if pxe get; then pxe boot; fi
+bootcmd_usb0=setenv devnum 0; run usb_boot
+bootdelay=0
+cpu=armv8
+devnum=0
+devtype=mmc
+distro_bootcmd=for target in ${boot_targets}; do run bootcmd_${target}; done
+eth1addr=a6:2e:b2:65:f8:93
+ethaddr=a2:2e:b2:65:f8:93
+fdt_addr_r=0x0a100000
+kernel_addr_c=0x04080000
+kernel_addr_no_low_bl32_r=0x00280000
+kernel_addr_r=0x00280000
+mmc_boot=if mmc dev ${devnum}; then setenv devtype mmc; run scan_dev_for_boot_part; fi
+partitions=uuid_disk=${uuid_gpt_disk};name=uboot,start=8MB,size=4MB,uuid=${uuid_gpt_loader2};name=trust,size=4M,uuid=${uuid_gpt_atf};name=misc,size=4MB,uuid=${uuid_gpt_misc};name=resource,size=16MB,uuid=${uuid_gpt_resource};name=kernel,size=32M,uuid=${uuid_gpt_kernel};name=boot,size=32M,bootable,uuid=${uuid_gpt_boot};name=recovery,size=32M,uuid=${uuid_gpt_recovery};name=backup,size=112M,uuid=${uuid_gpt_backup};name=cache,size=512M,uuid=${uuid_gpt_cache};name=system,size=2048M,uuid=${uuid_gpt_system};name=metadata,size=16M,uuid=${uuid_gpt_metadata};name=vendor,size=32M,uuid=${uuid_gpt_vendor};name=oem,size=32M,uuid=${uuid_gpt_oem};name=frp,size=512K,uuid=${uuid_gpt_frp};name=security,size=2M,uuid=${uuid_gpt_security};name=userdata,size=-,uuid=${uuid_gpt_userdata};
+pxefile_addr_r=0x00e00000
+ramdisk_addr_r=0x0a200000
+rkimg_bootdev=if mmc dev 1 && rkimgtest mmc 1; then setenv devtype mmc; setenv devnum 1; echo Boot from SDcard;elif mmc dev 0; then setenv devtype mmc; setenv devnum 0;elif mtd_blk dev 0; then setenv devtype mtd; setenv devnum 0;elif mtd_blk dev 1; then setenv devtype mtd; setenv devnum 1;elif mtd_blk dev 2; then setenv devtype mtd; setenv devnum 2;elif rknand dev 0; then setenv devtype rknand; setenv devnum 0;elif rksfc dev 0; then setenv devtype spinand; setenv devnum 0;elif rksfc dev 1; then setenv devtype spinor; setenv devnum 1;fi;
+scan_dev_for_boot=echo Scanning ${devtype} ${devnum}:${distro_bootpart}...; for prefix in ${boot_prefixes}; do run scan_dev_for_extlinux; run scan_dev_for_scripts; done;
+scan_dev_for_boot_part=part list ${devtype} ${devnum} -bootable devplist; env exists devplist || setenv devplist 1; for distro_bootpart in ${devplist}; do if fstype ${devtype} ${devnum}:${distro_bootpart} bootfstype; then run scan_dev_for_boot; fi; done
+scan_dev_for_extlinux=if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}extlinux/extlinux.conf; then echo Found ${prefix}extlinux/extlinux.conf; run boot_extlinux; echo SCRIPT FAILED: continuing...; fi
+scan_dev_for_scripts=for script in ${boot_scripts}; do if test -e ${devtype} ${devnum}:${distro_bootpart} ${prefix}${script}; then echo Found U-Boot script ${prefix}${script}; run boot_a_script; echo SCRIPT FAILED: continuing...; fi; done
+scriptaddr=0x00c00000
+serial#=a87bf82fad6c2c3b
+soc=rockchip
+stderr=serial,vidconsole
+stdout=serial,vidconsole
+usb_boot=usb start; if usb dev ${devnum}; then setenv devtype usb; run scan_dev_for_boot_part; fi
+vendor=rockchip
+
+Environment size: 3887/32764 bytes
+=> usb start
+starting USB...
+Bus dwc3@fcc00000: usb maximum-speed not found
+Register 2000140 NbrPorts 2
+Starting the controller
+USB XHCI 1.10
+Bus dwc3@fd000000: usb maximum-speed not found
+Register 2000140 NbrPorts 2
+Starting the controller
+USB XHCI 1.10
+Bus usb@fd800000: USB EHCI 1.00
+Bus usb@fd840000: USB OHCI 1.0
+Bus usb@fd880000: USB EHCI 1.00
+Bus usb@fd8c0000: USB OHCI 1.0
+scanning bus dwc3@fcc00000 for devices... 1 USB Device(s) found
+scanning bus dwc3@fd000000 for devices... 1 USB Device(s) found
+scanning bus usb@fd800000 for devices... 1 USB Device(s) found
+scanning bus usb@fd840000 for devices... 1 USB Device(s) found
+scanning bus usb@fd880000 for devices... 1 USB Device(s) found
+scanning bus usb@fd8c0000 for devices... 1 USB Device(s) found
+       scanning usb for storage devices... 0 Storage Device(s) found
+=> usb info
+1: Hub,  USB Revision 3.0
+ - U-Boot XHCI Host Controller
+ - Class: Hub
+ - PacketSize: 512  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 1.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 8 Interval 255ms
+
+1: Hub,  USB Revision 3.0
+ - U-Boot XHCI Host Controller
+ - Class: Hub
+ - PacketSize: 512  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 1.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 8 Interval 255ms
+
+1: Hub,  USB Revision 2.0
+ - u-boot EHCI Host Controller
+ - Class: Hub
+ - PacketSize: 64  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 1.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 8 Interval 255ms
+
+1: Hub,  USB Revision 1.10
+ -  U-Boot Root Hub
+ - Class: Hub
+ - PacketSize: 8  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 0.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 2 Interval 255ms
+
+1: Hub,  USB Revision 2.0
+ - u-boot EHCI Host Controller
+ - Class: Hub
+ - PacketSize: 64  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 1.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 8 Interval 255ms
+
+1: Hub,  USB Revision 1.10
+ -  U-Boot Root Hub
+ - Class: Hub
+ - PacketSize: 8  Configurations: 1
+ - Vendor: 0x0000  Product 0x0000 Version 0.0
+   Configuration: 1
+   - Interfaces: 1 Self Powered 0mA
+     Interface: 0
+     - Alternate Setting 0, Endpoints: 1
+     - Class Hub
+     - Endpoint 1 In Interrupt MaxPacket 2 Interval 255ms
+
+=>
