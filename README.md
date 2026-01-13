@@ -1,6 +1,6 @@
 # 明控创能 IOT-MKC3568 开发板系统移植项目
 
-[![GitHub Issues](https://img.shields.io/github/issues/dutyc/IOT-MKC3568-OS-Porting)](https://github.com/YOUR_NAME/REPO_NAME/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/dutyc/IOT-MKC3568-OS-Porting)](https://github.com/YOUR_NAME/dutyc/IOT-MKC3568-OS-Porting)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **语言**: [English](README_en.md) | 简体中文
